@@ -142,11 +142,17 @@ Delta even if a rep guesses they are similar.
 
 ## AI tooling used
 
-Claude (Anthropic) was used as a thinking and coding partner: brief
-decomposition, scaffolding the four-layer architecture, drafting the
-confidence formula, and proposing the landmine test cases. Every output
-was verified against the 20 seed events by running pytest and reading
-sample outputs end-to-end.
+I used Claude and Gemini Pro as my partners for thinking and coding. They helped me to:
+
+Break down the task into small parts.
+
+Build the basic four-layer system.
+
+Write the math for the confidence scores.
+
+Think of the tricky test cases.
+
+I checked all their work carefully. I ran the tests (pytest) on the 20 starting events and read the final results from start to finish to make sure everything was exactly right
 
 ## Layout
 
