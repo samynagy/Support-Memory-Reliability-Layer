@@ -1,0 +1,30 @@
+{
+  "fact": {
+    "fact_id": "5a369b00-a644-46d2-9cdc-bacaf7cf3dee",
+    "subject": {
+      "type": "account",
+      "id": "acct_helios_141"
+    },
+    "predicate": "plan",
+    "value": "Enterprise Support",
+    "confidence": 1.0,
+    "status": "active",
+    "superseded_by": null
+  },
+  "supporting_events": [
+    {
+      "event_id": "evt-1003",
+      "occurred_at": "2026-04-02T13:12:00Z",
+      "source": "contract",
+      "actor": "contract_importer",
+      "reliability": "high",
+      "text": "Signed addendum says Helios upgraded to Enterprise Support effective 2026-04-02. P1 response target is 2 hours. Phone escalation is included.",
+      "payload": {
+        "plan": "Enterprise Support",
+        "p1_response_hours": 2,
+        "phone_escalation": true
+      }
+    }
+  ],
+  "explanation": "Belief 'plan=Enterprise Support' for account/acct_helios_141 is supported by 1 event(s). Confidence=1.0. Status=active."
+}

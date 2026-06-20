@@ -1,0 +1,99 @@
+{
+  "entity": {
+    "type": "ticket",
+    "id": "ticket_h_141_p1"
+  },
+  "active_facts": [
+    {
+      "fact_id": "1ab1af2f-09f5-445c-907c-ee26e6599bd8",
+      "predicate": "affected_seats",
+      "value": 48,
+      "confidence": 0.36,
+      "status": "active",
+      "sources": [
+        "evt-1007"
+      ]
+    },
+    {
+      "fact_id": "5df23274-5a6a-4e15-bd4d-2019593201b3",
+      "predicate": "priority",
+      "value": "P1",
+      "confidence": 0.3,
+      "status": "active",
+      "sources": [
+        "evt-1004"
+      ]
+    },
+    {
+      "fact_id": "e3ce3a6b-45de-4c9a-921a-eaa641ca902d",
+      "predicate": "priority",
+      "value": "P1",
+      "confidence": 0.3,
+      "status": "active",
+      "sources": [
+        "evt-1005"
+      ]
+    },
+    {
+      "fact_id": "3d7413ed-8f30-4f44-be2d-acaf7ca57bcc",
+      "predicate": "root_cause",
+      "value": "cache_invalidation",
+      "confidence": 0.9,
+      "status": "active",
+      "sources": [
+        "evt-1019"
+      ]
+    },
+    {
+      "fact_id": "4f0f175c-7940-4a8a-804b-8da54c2b9940",
+      "predicate": "status",
+      "value": "resolved",
+      "confidence": 0.9,
+      "status": "active",
+      "sources": [
+        "evt-1019"
+      ]
+    },
+    {
+      "fact_id": "40600106-233a-451a-a153-d58c20397eec",
+      "predicate": "symptom",
+      "value": "dashboard_down",
+      "confidence": 0.3,
+      "status": "active",
+      "sources": [
+        "evt-1004"
+      ]
+    }
+  ],
+  "historical_facts": [
+    {
+      "fact_id": "97b711a5-b1f8-4a77-8512-a87a1eac3f8f",
+      "predicate": "affected_seats",
+      "value": 42,
+      "confidence": 0.3,
+      "status": "superseded",
+      "sources": [
+        "evt-1006"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "kind": "duplicate_suspect",
+      "message": "Event evt-1005 flagged as duplicate of evt-1004",
+      "sources": [
+        "evt-1005",
+        "evt-1004"
+      ]
+    },
+    {
+      "kind": "duplicate_suspect",
+      "message": "Event evt-1008 flagged as duplicate of evt-1004",
+      "sources": [
+        "evt-1008",
+        "evt-1004"
+      ]
+    }
+  ],
+  "related_entities": []
+}

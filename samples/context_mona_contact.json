@@ -1,0 +1,42 @@
+{
+  "entity": {
+    "type": "contact",
+    "id": "contact_mona_141"
+  },
+  "active_facts": [
+    {
+      "fact_id": "4d1e4949-28bd-4f72-b88d-769bade644dc",
+      "predicate": "contact_name",
+      "value": "Mona Salem",
+      "confidence": 0.3,
+      "status": "active",
+      "sources": [
+        "evt-1002"
+      ]
+    },
+    {
+      "fact_id": "d1a5b76f-6c77-4bab-9980-472d6c16efcb",
+      "predicate": "contact_preference",
+      "value": "email_only_except_p1",
+      "confidence": 0.36,
+      "status": "active",
+      "sources": [
+        "evt-1013"
+      ]
+    }
+  ],
+  "historical_facts": [
+    {
+      "fact_id": "c0f2be70-cf0a-4b0a-a458-3b81943236cb",
+      "predicate": "contact_preference",
+      "value": "WhatsApp",
+      "confidence": 0.3,
+      "status": "superseded",
+      "sources": [
+        "evt-1002"
+      ]
+    }
+  ],
+  "warnings": [],
+  "related_entities": []
+}

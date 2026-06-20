@@ -1,0 +1,62 @@
+{
+  "entity": {
+    "type": "account",
+    "id": "acct_nova_141"
+  },
+  "active_facts": [
+    {
+      "fact_id": "202f2b1d-400a-4387-80ea-c4d0693bff51",
+      "predicate": "account_name",
+      "value": "Nova Clinic",
+      "confidence": 0.3,
+      "status": "active",
+      "sources": [
+        "evt-1010"
+      ]
+    },
+    {
+      "fact_id": "c52c7b1e-43f4-404a-8f82-8f85142af0c5",
+      "predicate": "plan",
+      "value": "Business",
+      "confidence": 1.0,
+      "status": "active",
+      "sources": [
+        "evt-1017"
+      ]
+    },
+    {
+      "fact_id": "bddc9a4e-9755-49f6-a83b-9ee76a10e39b",
+      "predicate": "standard_response",
+      "value": "next_business_day",
+      "confidence": 1.0,
+      "status": "active",
+      "sources": [
+        "evt-1017"
+      ]
+    }
+  ],
+  "historical_facts": [],
+  "warnings": [
+    {
+      "kind": "policy_unverified",
+      "message": "Policy claim without contract evidence: Nova Clinic is a healthcare customer. Their admin contact says support must never use customer data for model training.",
+      "sources": [
+        "evt-1010"
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "id": "policy_nova_141_privacy",
+      "type": "policy"
+    },
+    {
+      "id": "contact_omar_141",
+      "type": "contact"
+    },
+    {
+      "id": "ticket_n_141_security",
+      "type": "ticket"
+    }
+  ]
+}

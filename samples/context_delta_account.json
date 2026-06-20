@@ -1,0 +1,29 @@
+{
+  "entity": {
+    "type": "account",
+    "id": "acct_delta_141"
+  },
+  "active_facts": [
+    {
+      "fact_id": "1a2475aa-78a3-49d5-9577-06748291311a",
+      "predicate": "account_name",
+      "value": "Delta Stores",
+      "confidence": 0.15,
+      "status": "active",
+      "sources": [
+        "evt-1012"
+      ]
+    }
+  ],
+  "historical_facts": [],
+  "warnings": [
+    {
+      "kind": "policy_unverified",
+      "message": "Policy claim without contract evidence: Rep says maybe Delta Stores has the same privacy restriction as Nova, but no contract is attached.",
+      "sources": [
+        "evt-1012"
+      ]
+    }
+  ],
+  "related_entities": []
+}

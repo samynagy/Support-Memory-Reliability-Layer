@@ -1,0 +1,92 @@
+{
+  "ingestion": [
+    {
+      "status": "ingested",
+      "event_id": "evt-1001"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1002"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1003"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1004"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1005"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1006"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1007"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1008"
+    },
+    {
+      "status": "idempotency_conflict",
+      "event_id": "evt-1009",
+      "conflicts_with": "evt-1008"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1010"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1011"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1012"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1013"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1014"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1015"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1016"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1017"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1018"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1019"
+    },
+    {
+      "status": "ingested",
+      "event_id": "evt-1020"
+    }
+  ],
+  "facts_extracted": 27,
+  "detection": {
+    "supersessions": 4,
+    "duplicates": 2,
+    "identity_warnings": 2,
+    "policy_warnings": 2
+  }
+}

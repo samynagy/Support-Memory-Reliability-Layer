@@ -1,0 +1,105 @@
+{
+  "entity": {
+    "type": "account",
+    "id": "acct_helios_141"
+  },
+  "active_facts": [
+    {
+      "fact_id": "290ea5a7-838a-4aa5-a6b8-d32accc96031",
+      "predicate": "account_name",
+      "value": "Helios Apps",
+      "confidence": 0.42,
+      "status": "active",
+      "sources": [
+        "evt-1001"
+      ]
+    },
+    {
+      "fact_id": "8ce39bde-6c0d-4e40-9133-e92cb928a3d0",
+      "predicate": "contact_preference",
+      "value": "finance_dashboard_uptime",
+      "confidence": 0.36,
+      "status": "active",
+      "sources": [
+        "evt-1020"
+      ]
+    },
+    {
+      "fact_id": "75843c71-588c-4224-b57b-d32c469aeb81",
+      "predicate": "p1_response_hours",
+      "value": 2,
+      "confidence": 1.0,
+      "status": "active",
+      "sources": [
+        "evt-1003"
+      ]
+    },
+    {
+      "fact_id": "83020f76-39a2-4331-8782-eedf508cc5a2",
+      "predicate": "phone_escalation",
+      "value": true,
+      "confidence": 1.0,
+      "status": "active",
+      "sources": [
+        "evt-1003"
+      ]
+    },
+    {
+      "fact_id": "5a369b00-a644-46d2-9cdc-bacaf7cf3dee",
+      "predicate": "plan",
+      "value": "Enterprise Support",
+      "confidence": 1.0,
+      "status": "active",
+      "sources": [
+        "evt-1003"
+      ]
+    },
+    {
+      "fact_id": "a78aff78-3e79-44ac-b4bd-0cb3f875d6b4",
+      "predicate": "region",
+      "value": "Cairo",
+      "confidence": 0.42,
+      "status": "active",
+      "sources": [
+        "evt-1001"
+      ]
+    }
+  ],
+  "historical_facts": [
+    {
+      "fact_id": "7e1c63ef-2385-4a59-b2c0-1310ab9d3423",
+      "predicate": "plan",
+      "value": "Starter",
+      "confidence": 0.42,
+      "status": "superseded",
+      "sources": [
+        "evt-1001"
+      ]
+    },
+    {
+      "fact_id": "15e53e64-ab0c-47ae-84d2-6d04e250b958",
+      "predicate": "plan",
+      "value": "Starter",
+      "confidence": 0.15,
+      "status": "stale",
+      "sources": [
+        "evt-1018"
+      ]
+    }
+  ],
+  "warnings": [],
+  "related_entities": [
+    {
+      "id": "contact_mona_141",
+      "type": "contact"
+    },
+    {
+      "id": "ticket_h_141_p1",
+      "type": "ticket"
+    },
+    {
+      "id": "contact_m_salem_141",
+      "type": "contact"
+    }
+  ]
+}
